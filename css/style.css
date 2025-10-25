@@ -1,0 +1,98 @@
+:root {
+    --azul-cientifico: #1e40af;
+    --verde-cientifico: #059669;
+    --gris-claro: #f8fafc;
+}
+
+.bg-primary-custom {
+    background-color: var(--azul-cientifico) !important;
+}
+
+.bg-verde-cientifico {
+    background-color: var(--verde-cientifico) !important;
+}
+
+.bg-azul-cientifico {
+    background-color: var(--azul-cientifico) !important;
+}
+
+.text-verde-cientifico {
+    color: var(--verde-cientifico);
+}
+
+.text-azul-cientifico {
+    color: var(--azul-cientifico);
+}
+
+.btn-cientifico {
+    background-color: var(--verde-cientifico);
+    border-color: var(--verde-cientifico);
+    color: white;
+}
+
+.btn-cientifico:hover {
+    background-color: #047857;
+    border-color: #047857;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.banner-cientifico {
+    background: linear-gradient(135deg, var(--azul-cientifico), var(--verde-cientifico));
+    padding: 100px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.badge.bg-verde-cientifico {
+    background-color: var(--verde-cientifico) !important;
+}
+
+.badge.bg-azul-cientifico {
+    background-color: var(--azul-cientifico) !important;
+}
+/* Estilos específicos para la galería */
+.bg-gradient-custom {
+    background: linear-gradient(135deg, var(--azul-cientifico), var(--verde-cientifico)) !important;
+}
+
+.gallery-card {
+    transition: all 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.gallery-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.gallery-card img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-card:hover img {
+    transform: scale(1.05);
+}
+/* Estilos específicos para el newsletter */
+.bg-gradient-newsletter {
+    background: linear-gradient(135deg, var(--verde-cientifico), var(--azul-cientifico)) !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--verde-cientifico);
+    border-color: var(--verde-cientifico);
+}
+
+.form-check-label {
+    cursor: pointer;
+}
